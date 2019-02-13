@@ -10,12 +10,14 @@
     "migrate": "./node_modules/.bin/truffle migrate --network in_memory",
     "deploy-rinkeby": "./node_modules/.bin/truffle migrate --network rinkeby",
     "deploy-ropsten": "./node_modules/.bin/truffle migrate --network ropsten",
-    "coverage": "./node_modules/.bin/solidity-coverage"
+    "coverage": "./node_modules/.bin/solidity-coverage",
+    "coverage-ci": "./node_modules/.bin/solidity-coverage && cat coverage/lcov.info | coveralls"
   },
   "devDependencies": {
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-register": "^6.26.0",
+    "coveralls": "^3.0.2",
     "eslint": "^5.13.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.16.0",
