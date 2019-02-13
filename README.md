@@ -33,7 +33,7 @@ If the period pass forward without a purchaser, lenders whoms funded this packag
 
 ### Collect Tokens
 
-If there is a buyer, I can claim the debt tokens when he wants.
+If there is a purchaser, He can claim the debt tokens when he wants.
 
 He can sell it again in other package with other conditions or wait for claim the loan collateral or repayment.
 
