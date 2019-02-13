@@ -11,7 +11,7 @@
     "deploy-rinkeby": "./node_modules/.bin/truffle migrate --network rinkeby",
     "deploy-ropsten": "./node_modules/.bin/truffle migrate --network ropsten",
     "coverage": "./node_modules/.bin/solidity-coverage",
-    "coverage-ci": "./node_modules/.bin/solidity-coverage && cat coverage/lcov.info | coveralls"
+    "coverage-ci": "./node_modules/.bin/solidity-coverage && cat coverage/lcov.info | ./node_modules/.bin/coveralls"
   },
   "devDependencies": {
     "babel-polyfill": "^6.26.0",
