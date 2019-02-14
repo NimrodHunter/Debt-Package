@@ -1,4 +1,4 @@
-# Debt-Package-Contract
+# Debt-Package
 
 [![Coverage Status](https://coveralls.io/repos/github/NimrodHunter/Debt-Package-Contracts/badge.svg)](https://coveralls.io/github/NimrodHunter/Debt-Package-Contracts)
 
@@ -43,8 +43,8 @@ Purchaser can fund another package with other conditions or wait for claim the l
 
 ## Analysis
 
-- [surya](https://github.com/NimrodHunter/Debt-Package-Contracts/blob/develop/surya_package_report.md)
+- [surya](https://github.com/NimrodHunter/Debt-Package-Contracts/blob/develop/analysis/surya_package_report.md)
 
-- [mythril](https://github.com/NimrodHunter/Debt-Package-Contracts/blob/develop/mythril_analysis.md)
+- [mythril](https://github.com/NimrodHunter/Debt-Package-Contracts/blob/develop/analysis/mythril_analysis.md)
 
 
