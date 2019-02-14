@@ -37,4 +37,8 @@ If there is a purchaser, He can claim the debt tokens when he wants.
 
 He can sell it again in other package with other conditions or wait for claim the loan collateral or repayment.
 
+#### General Diagram
+
+![alt text](https://github.com/NimrodHunter/Debt-Package-Contracts/images/PackageDebt.png "Diagram")
+
 
