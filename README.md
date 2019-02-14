@@ -39,6 +39,6 @@ He can sell it again in other package with other conditions or wait for claim th
 
 #### General Diagram
 
-![alt text](https://github.com/NimrodHunter/Debt-Package-Contracts/images/PackageDebt.png "Diagram")
+![](https://github.com/NimrodHunter/Debt-Package-Contracts/blob/develop/images/PackageDebt.png "Diagram")
 
 
