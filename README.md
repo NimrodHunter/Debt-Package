@@ -13,7 +13,7 @@ The purchaser of the the package, is purchasing a combination of tokens that rep
 
 The package is sold on an time auction machanism, this mean that the price of the package decrease their price linearly, until reach the floor price at the end of the auction period.
 
-If the period pass forward without be fully funded, lenders whoms funded this package can retrieve their debt tokens back
+If the period pass forward without be fully funded, lenders whoms funded this package can retrieve their debt tokens back.
 
 ## Structure
 
@@ -35,10 +35,16 @@ If the period pass forward without a purchaser, lenders whoms funded this packag
 
 If there is a purchaser, He can claim the debt tokens when he wants.
 
-He can sell it again in other package with other conditions or wait for claim the loan collateral or repayment.
+Purchaser can fund another package with other conditions or wait for claim the loan collateral or repayment.
 
 #### General Diagram
 
 ![](https://github.com/NimrodHunter/Debt-Package-Contracts/blob/develop/images/PackageDebt.png "Diagram")
+
+#### Analysis
+
+[surya](https://github.com/NimrodHunter/Debt-Package-Contracts/blob/develop/surya_package_report.md)
+
+[mythril]https://github.com/NimrodHunter/Debt-Package-Contracts/blob/develop/mythril_analysis.md)
 
 

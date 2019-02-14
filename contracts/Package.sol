@@ -76,7 +76,7 @@ contract Package {
      * @param token It is the debt token.
      * @param contribution It how much token was send.
      */
-    function fund(address contributor, address token, uint256 contribution) external {
+    function fund(address contributor, address token, uint256 contribution) public {
         require(tokenBalance < total, "package totally funded"); // validate balance
         require(now <= startTime.add(fundingPeriod) && fundingTimeFinished == 0, "out of period"); //validate funding time
         //TODO: Validate risk with an external risk Oracle
@@ -120,7 +120,7 @@ contract Package {
      *         until reach the floor auction price at the end of the auction period.
      * @param purchaser Who purchased the package.
      */
-    function auction(address purchaser) public payable {
+    function auction(address purchaser) public {
         finalPrice = packagePrice();
         
         uint256 amount = IERC20(liquidityToken).allowance(purchaser, address(this));

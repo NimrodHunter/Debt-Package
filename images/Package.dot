@@ -1,0 +1,22 @@
+strict digraph {
+  constructor
+  fund
+  LogFunded
+  auction [color=brown]
+  LogPackageSold
+  cashOut
+  LogCashOut
+  retrieveDebt
+  LogDebtRetrieved
+  collectToken
+  LogTokenCollected
+  packagePrice [color=yellow]
+  contributions [color=yellow]
+  tokens [color=yellow]
+  fund -> LogFunded
+  auction -> LogPackageSold
+  cashOut -> LogCashOut
+  retrieveDebt -> LogDebtRetrieved
+  collectToken -> LogTokenCollected
+}
+

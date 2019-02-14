@@ -1,6 +1,9 @@
-#Modules
+#modules
 node_modules
 
 #coveralls token
 .coveralls.yml
+
+#contracts build
+build
 
