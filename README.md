@@ -45,6 +45,6 @@ Purchaser can fund another package with other conditions or wait for claim the l
 
 [surya](https://github.com/NimrodHunter/Debt-Package-Contracts/blob/develop/surya_package_report.md)
 
-[mythril]https://github.com/NimrodHunter/Debt-Package-Contracts/blob/develop/mythril_analysis.md)
+[mythril](https://github.com/NimrodHunter/Debt-Package-Contracts/blob/develop/mythril_analysis.md)
 
 
