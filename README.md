@@ -37,11 +37,11 @@ If there is a purchaser, He can claim the debt tokens when he wants.
 
 Purchaser can fund another package with other conditions or wait for claim the loan collateral or repayment.
 
-#### General Diagram
+## General Diagram
 
 ![](https://github.com/NimrodHunter/Debt-Package-Contracts/blob/develop/images/PackageDebt.png "Diagram")
 
-#### Analysis
+## Analysis
 
 [surya](https://github.com/NimrodHunter/Debt-Package-Contracts/blob/develop/surya_package_report.md)
 
